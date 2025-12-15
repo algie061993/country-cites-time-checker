@@ -240,18 +240,21 @@ function populateCountrySelect() {
 
 function populateTimeSelect() {
     const select = document.getElementById('userTime');
+    
+    // Add AM times
     for (let hour = 1; hour <= 12; hour++) {
         const amOption = document.createElement('option');
-        const pmOption = document.createElement('option');
-        
         const hourStr = hour.toString().padStart(2, '0');
         amOption.value = hour === 12 ? '00:00' : `${hourStr}:00`;
         amOption.textContent = `${hour}:00 AM`;
-        
+        select.appendChild(amOption);
+    }
+    
+    // Add PM times
+    for (let hour = 1; hour <= 12; hour++) {
+        const pmOption = document.createElement('option');
         pmOption.value = hour === 12 ? '12:00' : `${hour + 12}:00`;
         pmOption.textContent = `${hour}:00 PM`;
-        
-        select.appendChild(amOption);
         select.appendChild(pmOption);
     }
 }
