@@ -3,217 +3,217 @@ const countryData = {
     'United States': {
         'New York': {
             timezone: 'America/New_York',
-            cities: ['New York', 'Buffalo']
+            cities: ['New York, NY', 'Buffalo, NY']
         },
         'California': {
             timezone: 'America/Los_Angeles',
-            cities: ['Los Angeles', 'San Diego', 'San Jose', 'San Francisco', 'Fresno', 'Sacramento', 'Long Beach', 'Oakland', 'Bakersfield', 'Anaheim', 'Stockton', 'Riverside', 'Santa Ana', 'Irvine', 'Chula Vista']
+            cities: ['Los Angeles, CA', 'San Diego, CA', 'San Jose, CA', 'San Francisco, CA', 'Fresno, CA', 'Sacramento, CA', 'Long Beach, CA', 'Oakland, CA', 'Bakersfield, CA', 'Anaheim, CA', 'Stockton, CA', 'Riverside, CA', 'Santa Ana, CA', 'Irvine, CA', 'Chula Vista, CA']
         },
         'Texas': {
             timezone: 'America/Chicago',
-            cities: ['Houston', 'San Antonio', 'Dallas', 'Austin', 'Fort Worth', 'El Paso', 'Arlington', 'Corpus Christi', 'Plano']
+            cities: ['Houston, TX', 'San Antonio, TX', 'Dallas, TX', 'Austin, TX', 'Fort Worth, TX', 'El Paso, TX', 'Arlington, TX', 'Corpus Christi, TX', 'Plano, TX']
         },
         'Florida': {
             timezone: 'America/New_York',
-            cities: ['Jacksonville', 'Miami', 'Tampa', 'Orlando']
+            cities: ['Jacksonville, FL', 'Miami, FL', 'Tampa, FL', 'Orlando, FL']
         },
         'Illinois': {
             timezone: 'America/Chicago',
-            cities: ['Chicago']
+            cities: ['Chicago, IL']
         },
         'Arizona': {
             timezone: 'America/Phoenix',
-            cities: ['Phoenix', 'Tucson', 'Mesa', 'Chandler', 'Gilbert']
+            cities: ['Phoenix, AZ', 'Tucson, AZ', 'Mesa, AZ', 'Chandler, AZ', 'Gilbert, AZ']
         },
         'Pennsylvania': {
             timezone: 'America/New_York',
-            cities: ['Philadelphia', 'Pittsburgh']
+            cities: ['Philadelphia, PA', 'Pittsburgh, PA']
         },
         'Ohio': {
             timezone: 'America/New_York',
-            cities: ['Columbus', 'Cleveland', 'Cincinnati']
+            cities: ['Columbus, OH', 'Cleveland, OH', 'Cincinnati, OH']
         },
         'North Carolina': {
             timezone: 'America/New_York',
-            cities: ['Charlotte', 'Raleigh', 'Greensboro', 'Durham']
+            cities: ['Charlotte, NC', 'Raleigh, NC', 'Greensboro, NC', 'Durham, NC']
         },
         'Indiana': {
             timezone: 'America/New_York',
-            cities: ['Indianapolis']
+            cities: ['Indianapolis, IN']
         },
         'Washington': {
             timezone: 'America/Los_Angeles',
-            cities: ['Seattle']
+            cities: ['Seattle, WA']
         },
         'Colorado': {
             timezone: 'America/Denver',
-            cities: ['Denver', 'Colorado Springs', 'Aurora']
+            cities: ['Denver, CO', 'Colorado Springs, CO', 'Aurora, CO']
         },
         'Oklahoma': {
             timezone: 'America/Chicago',
-            cities: ['Oklahoma City', 'Tulsa']
+            cities: ['Oklahoma City, OK', 'Tulsa, OK']
         },
         'Tennessee': {
             timezone: 'America/Chicago',
-            cities: ['Nashville', 'Memphis']
+            cities: ['Nashville, TN', 'Memphis, TN']
         },
         'Massachusetts': {
             timezone: 'America/New_York',
-            cities: ['Boston']
+            cities: ['Boston, MA']
         },
         'Nevada': {
             timezone: 'America/Los_Angeles',
-            cities: ['Las Vegas', 'Henderson', 'North Las Vegas']
+            cities: ['Las Vegas, NV', 'Henderson, NV', 'North Las Vegas, NV']
         },
         'Oregon': {
             timezone: 'America/Los_Angeles',
-            cities: ['Portland']
+            cities: ['Portland, OR']
         },
         'Michigan': {
             timezone: 'America/New_York',
-            cities: ['Detroit']
+            cities: ['Detroit, MI']
         },
         'Kentucky': {
             timezone: 'America/New_York',
-            cities: ['Louisville', 'Lexington']
+            cities: ['Louisville, KY', 'Lexington, KY']
         },
         'Maryland': {
             timezone: 'America/New_York',
-            cities: ['Baltimore']
+            cities: ['Baltimore, MD']
         },
         'Wisconsin': {
             timezone: 'America/Chicago',
-            cities: ['Milwaukee']
+            cities: ['Milwaukee, WI']
         },
         'New Mexico': {
             timezone: 'America/Denver',
-            cities: ['Albuquerque']
+            cities: ['Albuquerque, NM']
         },
         'Georgia': {
             timezone: 'America/New_York',
-            cities: ['Atlanta']
+            cities: ['Atlanta, GA']
         },
         'Missouri': {
             timezone: 'America/Chicago',
-            cities: ['Kansas City', 'St. Louis']
+            cities: ['Kansas City, MO', 'St. Louis, MO']
         },
         'Nebraska': {
             timezone: 'America/Chicago',
-            cities: ['Omaha', 'Lincoln']
+            cities: ['Omaha, NE', 'Lincoln, NE']
         },
         'Virginia': {
             timezone: 'America/New_York',
-            cities: ['Virginia Beach']
+            cities: ['Virginia Beach, VA']
         },
         'Minnesota': {
             timezone: 'America/Chicago',
-            cities: ['Minneapolis', 'Saint Paul']
+            cities: ['Minneapolis, MN', 'Saint Paul, MN']
         },
         'Kansas': {
             timezone: 'America/Chicago',
-            cities: ['Wichita']
+            cities: ['Wichita, KS']
         },
         'Louisiana': {
             timezone: 'America/Chicago',
-            cities: ['New Orleans']
+            cities: ['New Orleans, LA']
         },
         'Hawaii': {
             timezone: 'Pacific/Honolulu',
-            cities: ['Honolulu']
+            cities: ['Honolulu, HI']
         },
         'New Jersey': {
             timezone: 'America/New_York',
-            cities: ['Newark', 'Jersey City']
+            cities: ['Newark, NJ', 'Jersey City, NJ']
         },
         'Alaska': {
             timezone: 'America/Anchorage',
-            cities: ['Anchorage']
+            cities: ['Anchorage, AK']
         },
         'District of Columbia': {
             timezone: 'America/New_York',
-            cities: ['Washington']
+            cities: ['Washington, DC']
         }
     },
     'Canada': {
         'Ontario': {
             timezone: 'America/Toronto',
-            cities: ['Toronto', 'North York', 'Ottawa', 'Hamilton', 'Mississauga', 'Scarborough', 'Kitchener', 'Brampton', 'Oshawa', 'Etobicoke', 'London', 'Windsor', 'Markham', 'Vaughan', 'Oakville', 'Richmond Hill', 'Burlington', 'Nepean', 'Greater Sudbury', 'Barrie', 'St. Catharines', 'Guelph', 'Cambridge', 'East York', 'Kingston', 'Thunder Bay', 'Waterloo', 'Ajax', 'Pickering', 'Brantford', 'Sarnia', 'Niagara Falls', 'Willowdale', 'Peterborough', 'Sault Ste. Marie', 'Newmarket', 'Belleville', 'Welland', 'North Bay', 'Cornwall', 'Chatham', 'Timmins', 'Quinte West', 'St. Thomas', 'Woodstock', 'Ancaster', 'Orangeville', 'Midland', 'Stratford', 'Orillia', 'Brockville', 'Owen Sound', 'Lindsay', 'Huntsville', 'Cobourg', 'Fort Erie', 'Collingwood', 'Pembroke', 'Greater Napanee', 'Kenora', 'Elliot Lake', 'Ingersoll', 'Amherstburg', 'Paris', 'Smiths Falls', 'Temiskaming Shores']
+            cities: ['Toronto, ON', 'North York, ON', 'Ottawa, ON', 'Hamilton, ON', 'Mississauga, ON', 'Scarborough, ON', 'Kitchener, ON', 'Brampton, ON', 'Oshawa, ON', 'Etobicoke, ON', 'London, ON', 'Windsor, ON', 'Markham, ON', 'Vaughan, ON', 'Oakville, ON', 'Richmond Hill, ON', 'Burlington, ON', 'Nepean, ON', 'Greater Sudbury, ON', 'Barrie, ON', 'St. Catharines, ON', 'Guelph, ON', 'Cambridge, ON', 'East York, ON', 'Kingston, ON', 'Thunder Bay, ON', 'Waterloo, ON', 'Ajax, ON', 'Pickering, ON', 'Brantford, ON', 'Sarnia, ON', 'Niagara Falls, ON', 'Willowdale, ON', 'Peterborough, ON', 'Sault Ste. Marie, ON', 'Newmarket, ON', 'Belleville, ON', 'Welland, ON', 'North Bay, ON', 'Cornwall, ON', 'Chatham, ON', 'Timmins, ON', 'Quinte West, ON', 'St. Thomas, ON', 'Woodstock, ON', 'Ancaster, ON', 'Orangeville, ON', 'Midland, ON', 'Stratford, ON', 'Orillia, ON', 'Brockville, ON', 'Owen Sound, ON', 'Lindsay, ON', 'Huntsville, ON', 'Cobourg, ON', 'Fort Erie, ON', 'Collingwood, ON', 'Pembroke, ON', 'Greater Napanee, ON', 'Kenora, ON', 'Elliot Lake, ON', 'Ingersoll, ON', 'Amherstburg, ON', 'Paris, ON', 'Smiths Falls, ON', 'Temiskaming Shores, ON']
         },
         'Quebec': {
             timezone: 'America/Montreal',
-            cities: ['Montreal', 'Quebec', 'Laval', 'Gatineau', 'Longueuil', 'Sherbrooke', 'Levis', 'Trois-Rivieres', 'Saint-Laurent', 'Repentigny', 'La Haute-Saint-Charles', 'Saint-Leonard', 'Saint-Jean-sur-Richelieu', 'Brossard', 'Notre-Dame-de-Grace', 'Drummondville', 'Saint-Jerome', 'Jonquiere', 'Granby', 'Saint-Hyacinthe', 'Shawinigan', 'Dollard-Des Ormeaux', 'Blainville', 'Chateauguay', 'Rimouski', 'Saint-Eustache', 'Boucherville', 'Salaberry-de-Valleyfield', 'Rock Forest', 'Joliette', 'Mascouche', 'Mirabel', 'Victoriaville', 'Cote-Saint-Luc', 'Saint-Georges', 'Val-d\'Or', 'Pointe-Claire', 'Baie-Comeau', 'Alma', 'Sainte-Julie', 'Boisbriand', 'Vaudreuil-Dorion', 'Thetford-Mines', 'Sainte-Therese', 'Saint-Bruno-de-Montarville', 'Rouyn-Noranda', 'Saint-Constant', 'Chambly', 'Sept-Iles', 'La Prairie', 'Varennes', 'Westmount', 'Kirkland', 'Beaconsfield', 'Mont-Royal', 'Beloeil', 'Riviere-du-Loup', 'Dorval', 'Amos', 'Deux-Montagnes', 'Saint-Augustin-de-Desmaures', 'Saint-Lazare', 'Sainte-Catherine', 'L\'Assomption', 'L\'Ancienne-Lorette', 'Candiac', 'Mont-Saint-Hilaire', 'Saint-Basile-le-Grand', 'Magog', 'le Plateau', 'Gaspe', 'Matane', 'Rosemere', 'Saint-Lin-Laurentides', 'Mont-Laurier', 'Dolbeau-Mistassini', 'Beauharnois', 'Montmagny', 'Sainte-Marie', 'Pincourt', 'Becancour', 'Cowansville', 'Sainte-Anne-des-Plaines', 'Sainte-Adele', 'Les Coteaux', 'Cantley', 'Rawdon', 'Prevost', 'Mercier']
+            cities: ['Montreal, QC', 'Quebec, QC', 'Laval, QC', 'Gatineau, QC', 'Longueuil, QC', 'Sherbrooke, QC', 'Levis, QC', 'Trois-Rivieres, QC', 'Saint-Laurent, QC', 'Repentigny, QC', 'La Haute-Saint-Charles, QC', 'Saint-Leonard, QC', 'Saint-Jean-sur-Richelieu, QC', 'Brossard, QC', 'Notre-Dame-de-Grace, QC', 'Drummondville, QC', 'Saint-Jerome, QC', 'Jonquiere, QC', 'Granby, QC', 'Saint-Hyacinthe, QC', 'Shawinigan, QC', 'Dollard-Des Ormeaux, QC', 'Blainville, QC', 'Chateauguay, QC', 'Rimouski, QC', 'Saint-Eustache, QC', 'Boucherville, QC', 'Salaberry-de-Valleyfield, QC', 'Rock Forest, QC', 'Joliette, QC', 'Mascouche, QC', 'Mirabel, QC', 'Victoriaville, QC', 'Cote-Saint-Luc, QC', 'Saint-Georges, QC', 'Val-d\'Or, QC', 'Pointe-Claire, QC', 'Baie-Comeau, QC', 'Alma, QC', 'Sainte-Julie, QC', 'Boisbriand, QC', 'Vaudreuil-Dorion, QC', 'Thetford-Mines, QC', 'Sainte-Therese, QC', 'Saint-Bruno-de-Montarville, QC', 'Rouyn-Noranda, QC', 'Saint-Constant, QC', 'Chambly, QC', 'Sept-Iles, QC', 'La Prairie, QC', 'Varennes, QC', 'Westmount, QC', 'Kirkland, QC', 'Beaconsfield, QC', 'Mont-Royal, QC', 'Beloeil, QC', 'Riviere-du-Loup, QC', 'Dorval, QC', 'Amos, QC', 'Deux-Montagnes, QC', 'Saint-Augustin-de-Desmaures, QC', 'Saint-Lazare, QC', 'Sainte-Catherine, QC', 'L\'Assomption, QC', 'L\'Ancienne-Lorette, QC', 'Candiac, QC', 'Mont-Saint-Hilaire, QC', 'Saint-Basile-le-Grand, QC', 'Magog, QC', 'le Plateau, QC', 'Gaspe, QC', 'Matane, QC', 'Rosemere, QC', 'Saint-Lin-Laurentides, QC', 'Mont-Laurier, QC', 'Dolbeau-Mistassini, QC', 'Beauharnois, QC', 'Montmagny, QC', 'Sainte-Marie, QC', 'Pincourt, QC', 'Becancour, QC', 'Cowansville, QC', 'Sainte-Anne-des-Plaines, QC', 'Sainte-Adele, QC', 'Les Coteaux, QC', 'Cantley, QC', 'Rawdon, QC', 'Prevost, QC', 'Mercier, QC']
         },
         'British Columbia': {
             timezone: 'America/Vancouver',
-            cities: ['Vancouver', 'Surrey', 'Burnaby', 'Richmond', 'Victoria', 'Abbotsford', 'Coquitlam', 'Delta', 'Kelowna', 'Kamloops', 'Nanaimo', 'Chilliwack', 'Prince George', 'New Westminster', 'Maple Ridge', 'White Rock', 'North Vancouver', 'Vernon', 'West Vancouver', 'Penticton', 'Campbell River', 'Courtenay', 'North Cowichan', 'West Kelowna', 'Port Moody', 'Langley', 'Langford', 'Duncan', 'Port Alberni', 'Oak Bay', 'Pitt Meadows', 'Fort St. John', 'Salmon Arm', 'Colwood', 'Williams Lake', 'Quesnel', 'Powell River', 'Canmore', 'Aldergrove', 'Parksville', 'North Saanich', 'Dawson Creek', 'Whistler', 'Sylvan Lake']
+            cities: ['Vancouver, BC', 'Surrey, BC', 'Burnaby, BC', 'Richmond, BC', 'Victoria, BC', 'Abbotsford, BC', 'Coquitlam, BC', 'Delta, BC', 'Kelowna, BC', 'Kamloops, BC', 'Nanaimo, BC', 'Chilliwack, BC', 'Prince George, BC', 'New Westminster, BC', 'Maple Ridge, BC', 'White Rock, BC', 'North Vancouver, BC', 'Vernon, BC', 'West Vancouver, BC', 'Penticton, BC', 'Campbell River, BC', 'Courtenay, BC', 'North Cowichan, BC', 'West Kelowna, BC', 'Port Moody, BC', 'Langley, BC', 'Langford, BC', 'Duncan, BC', 'Port Alberni, BC', 'Oak Bay, BC', 'Pitt Meadows, BC', 'Fort St. John, BC', 'Salmon Arm, BC', 'Colwood, BC', 'Williams Lake, BC', 'Quesnel, BC', 'Powell River, BC', 'Canmore, BC', 'Aldergrove, BC', 'Parksville, BC', 'North Saanich, BC', 'Dawson Creek, BC', 'Whistler, BC', 'Sylvan Lake, BC']
         },
         'Alberta': {
             timezone: 'America/Edmonton',
-            cities: ['Calgary', 'Edmonton', 'Red Deer', 'Lethbridge', 'Fort McMurray', 'Medicine Hat', 'St. Albert', 'Sherwood Park', 'Grande Prairie', 'Airdrie', 'Cochrane', 'Spruce Grove', 'Fort Saskatchewan', 'Okotoks', 'Camrose', 'Leduc', 'Cold Lake', 'Wetaskiwin', 'Lacombe', 'Strathmore']
+            cities: ['Calgary, AB', 'Edmonton, AB', 'Red Deer, AB', 'Lethbridge, AB', 'Fort McMurray, AB', 'Medicine Hat, AB', 'St. Albert, AB', 'Sherwood Park, AB', 'Grande Prairie, AB', 'Airdrie, AB', 'Cochrane, AB', 'Spruce Grove, AB', 'Fort Saskatchewan, AB', 'Okotoks, AB', 'Camrose, AB', 'Leduc, AB', 'Cold Lake, AB', 'Wetaskiwin, AB', 'Lacombe, AB', 'Strathmore, AB']
         },
         'Manitoba': {
             timezone: 'America/Winnipeg',
-            cities: ['Winnipeg', 'Brandon', 'Portage la Prairie', 'Thompson']
+            cities: ['Winnipeg, MB', 'Brandon, MB', 'Portage la Prairie, MB', 'Thompson, MB']
         },
         'Saskatchewan': {
             timezone: 'America/Regina',
-            cities: ['Saskatoon', 'Regina', 'Prince Albert', 'Moose Jaw', 'North Battleford', 'Swift Current', 'Yorkton']
+            cities: ['Saskatoon, SK', 'Regina, SK', 'Prince Albert, SK', 'Moose Jaw, SK', 'North Battleford, SK', 'Swift Current, SK', 'Yorkton, SK']
         },
         'Nova Scotia': {
             timezone: 'America/Halifax',
-            cities: ['Halifax', 'Sydney', 'Dartmouth', 'Lower Sackville', 'Cole Harbour', 'Glace Bay', 'New Glasgow', 'Truro', 'Kentville']
+            cities: ['Halifax, NS', 'Sydney, NS', 'Dartmouth, NS', 'Lower Sackville, NS', 'Cole Harbour, NS', 'Glace Bay, NS', 'New Glasgow, NS', 'Truro, NS', 'Kentville, NS']
         },
         'New Brunswick': {
             timezone: 'America/Moncton',
-            cities: ['Moncton', 'Saint John', 'Fredericton', 'Dieppe', 'Miramichi', 'Edmundston', 'Bathurst']
+            cities: ['Moncton, NB', 'Saint John, NB', 'Fredericton, NB', 'Dieppe, NB', 'Miramichi, NB', 'Edmundston, NB', 'Bathurst, NB']
         },
         'Newfoundland and Labrador': {
             timezone: 'America/St_Johns',
-            cities: ['St. John\'s', 'Mount Pearl', 'Corner Brook', 'Conception Bay South', 'Bay Roberts', 'Grand Falls-Windsor', 'Labrador City']
+            cities: ['St. John\'s, NL', 'Mount Pearl, NL', 'Corner Brook, NL', 'Conception Bay South, NL', 'Bay Roberts, NL', 'Grand Falls-Windsor, NL', 'Labrador City, NL']
         },
         'Prince Edward Island': {
             timezone: 'America/Halifax',
-            cities: ['Charlottetown', 'Summerside']
+            cities: ['Charlottetown, PE', 'Summerside, PE']
         },
         'Northwest Territories': {
             timezone: 'America/Yellowknife',
-            cities: ['Yellowknife']
+            cities: ['Yellowknife, NT']
         },
         'Yukon': {
             timezone: 'America/Whitehorse',
-            cities: ['Whitehorse']
+            cities: ['Whitehorse, YT']
         }
     },
     'United Kingdom': {
         'England': {
             timezone: 'Europe/London',
-            cities: ['ABINGDON', 'ANNESLEY', 'AUCKLEY', 'AYLESBURY', 'BANBURY', 'BARKING', 'BARTLEY', 'BASFORD', 'BASINGSTOKE', 'BATH', 'BEDFORD', 'BELPER', 'BIRMINGHAM', 'BISPHAM', 'BLACKPOOL', 'BODMIN', 'BOREHAMWOOD', 'BOSTON', 'BOURNEMOUTH', 'BRADFORD', 'BRAMFORD', 'BRENT', 'BRIDGWATER', 'BRIGHTON', 'BRISTOL', 'BROMLEY', 'BROUGHTON', 'BRUMBY', 'BURNLEY', 'CAMBRIDGE', 'CANTERBURY', 'CHELMSFORD', 'CHELTENHAM', 'CHESTER', 'CHESTERFIELD', 'CLEVELEYS', 'COLCHESTER', 'COLTON', 'COTON', 'COTTINGHAM', 'COVENTRY', 'CRANMORE', 'CREWE', 'DARESBURY', 'DERBY', 'DOVER', 'DURHAM', 'EASTGATE', 'EASTLEIGH', 'ELLOUGHTON', 'EXETER', 'FAREHAM', 'FARNBOROUGH', 'FLAMBOROUGH', 'FORMBY', 'GARSTANG', 'GARTH', 'GORLESTON-ON-SEA', 'GOSPORT', 'GRANTHAM', 'GREAT MARTON', 'GRIMBSY', 'GUILDFORD', 'HARLOW', 'HARTLEPOOL', 'HATFIELD', 'HEMPSTEAD', 'HIGH WYCOMBE', 'HORSHAM', 'HUDDERSFIELD', 'HULL', 'INGOLDMELLS', 'KEELE', 'KENN', 'LANCASTER', 'LEEDS', 'LEICESTER', 'LINCOLN', 'LIVERPOOL', 'LONDON', 'LOUGHBOROUGH', 'LOWESTOFT', 'MAIDENHEAD', 'MANCHESTER', 'MIDDLESBROUGH', 'MIDVILLE', 'MILTON KEYNES', 'NEWBURY', 'NEWCASTLE UPON TYNE', 'NORTH KILWORTH', 'NORTH SHIELDS', 'NORTHAMPTON', 'NORWICH', 'NOTTINGHAM', 'NUNEATON', 'OXFORD', 'PENRITH', 'PETERBOROUGH', 'PLYMOUTH', 'POOLE', 'POPLAR', 'PORTSMOUTH', 'PRESTON', 'READING', 'REDDITCH', 'ROCHDALE', 'RUGBY', 'RUNCORN', 'SAINT ALBANS', 'SALISBURY', 'SEABROOK', 'SEACROFT', 'SHEFFIELD', 'SHREWSBURY', 'SILKSWORTH', 'SKEGNESS', 'SKELMERSDALE', 'SLOUGH', 'SOLIHULL', 'SOUTH SHORE', 'SOUTHAMPTON', 'STAFFORD', 'STEVENAGE', 'STOCKTON-ON-TEES', 'STOKE-ON-TRENT', 'STREET', 'SUNBURY-ON-THAMES', 'SUNDERLAND', 'SWINDON', 'TAKELEY', 'TARPORLEY', 'TELFORD', 'THORPE THEWLES', 'TRENT', 'UXBRIDGE', 'WAKEFIELD', 'WALTON LE DALE', 'WARRINGTON', 'WARWICK', 'WASHINGTON', 'WHITELEY', 'WOKING', 'WOLVERHAMPTON', 'WORCESTER', 'YORK']
+            cities: ['ABINGDON, ENG', 'ANNESLEY, ENG', 'AUCKLEY, ENG', 'AYLESBURY, ENG', 'BANBURY, ENG', 'BARKING, ENG', 'BARTLEY, ENG', 'BASFORD, ENG', 'BASINGSTOKE, ENG', 'BATH, ENG', 'BEDFORD, ENG', 'BELPER, ENG', 'BIRMINGHAM, ENG', 'BISPHAM, ENG', 'BLACKPOOL, ENG', 'BODMIN, ENG', 'BOREHAMWOOD, ENG', 'BOSTON, ENG', 'BOURNEMOUTH, ENG', 'BRADFORD, ENG', 'BRAMFORD, ENG', 'BRENT, ENG', 'BRIDGWATER, ENG', 'BRIGHTON, ENG', 'BRISTOL, ENG', 'BROMLEY, ENG', 'BROUGHTON, ENG', 'BRUMBY, ENG', 'BURNLEY, ENG', 'CAMBRIDGE, ENG', 'CANTERBURY, ENG', 'CHELMSFORD, ENG', 'CHELTENHAM, ENG', 'CHESTER, ENG', 'CHESTERFIELD, ENG', 'CLEVELEYS, ENG', 'COLCHESTER, ENG', 'COLTON, ENG', 'COTON, ENG', 'COTTINGHAM, ENG', 'COVENTRY, ENG', 'CRANMORE, ENG', 'CREWE, ENG', 'DARESBURY, ENG', 'DERBY, ENG', 'DOVER, ENG', 'DURHAM, ENG', 'EASTGATE, ENG', 'EASTLEIGH, ENG', 'ELLOUGHTON, ENG', 'EXETER, ENG', 'FAREHAM, ENG', 'FARNBOROUGH, ENG', 'FLAMBOROUGH, ENG', 'FORMBY, ENG', 'GARSTANG, ENG', 'GARTH, ENG', 'GORLESTON-ON-SEA, ENG', 'GOSPORT, ENG', 'GRANTHAM, ENG', 'GREAT MARTON, ENG', 'GRIMBSY, ENG', 'GUILDFORD, ENG', 'HARLOW, ENG', 'HARTLEPOOL, ENG', 'HATFIELD, ENG', 'HEMPSTEAD, ENG', 'HIGH WYCOMBE, ENG', 'HORSHAM, ENG', 'HUDDERSFIELD, ENG', 'HULL, ENG', 'INGOLDMELLS, ENG', 'KEELE, ENG', 'KENN, ENG', 'LANCASTER, ENG', 'LEEDS, ENG', 'LEICESTER, ENG', 'LINCOLN, ENG', 'LIVERPOOL, ENG', 'LONDON, ENG', 'LOUGHBOROUGH, ENG', 'LOWESTOFT, ENG', 'MAIDENHEAD, ENG', 'MANCHESTER, ENG', 'MIDDLESBROUGH, ENG', 'MIDVILLE, ENG', 'MILTON KEYNES, ENG', 'NEWBURY, ENG', 'NEWCASTLE UPON TYNE, ENG', 'NORTH KILWORTH, ENG', 'NORTH SHIELDS, ENG', 'NORTHAMPTON, ENG', 'NORWICH, ENG', 'NOTTINGHAM, ENG', 'NUNEATON, ENG', 'OXFORD, ENG', 'PENRITH, ENG', 'PETERBOROUGH, ENG', 'PLYMOUTH, ENG', 'POOLE, ENG', 'POPLAR, ENG', 'PORTSMOUTH, ENG', 'PRESTON, ENG', 'READING, ENG', 'REDDITCH, ENG', 'ROCHDALE, ENG', 'RUGBY, ENG', 'RUNCORN, ENG', 'SAINT ALBANS, ENG', 'SALISBURY, ENG', 'SEABROOK, ENG', 'SEACROFT, ENG', 'SHEFFIELD, ENG', 'SHREWSBURY, ENG', 'SILKSWORTH, ENG', 'SKEGNESS, ENG', 'SKELMERSDALE, ENG', 'SLOUGH, ENG', 'SOLIHULL, ENG', 'SOUTH SHORE, ENG', 'SOUTHAMPTON, ENG', 'STAFFORD, ENG', 'STEVENAGE, ENG', 'STOCKTON-ON-TEES, ENG', 'STOKE-ON-TRENT, ENG', 'STREET, ENG', 'SUNBURY-ON-THAMES, ENG', 'SUNDERLAND, ENG', 'SWINDON, ENG', 'TAKELEY, ENG', 'TARPORLEY, ENG', 'TELFORD, ENG', 'THORPE THEWLES, ENG', 'TRENT, ENG', 'UXBRIDGE, ENG', 'WAKEFIELD, ENG', 'WALTON LE DALE, ENG', 'WARRINGTON, ENG', 'WARWICK, ENG', 'WASHINGTON, ENG', 'WHITELEY, ENG', 'WOKING, ENG', 'WOLVERHAMPTON, ENG', 'WORCESTER, ENG', 'YORK, ENG']
         },
         'Scotland': {
             timezone: 'Europe/London',
-            cities: ['ABERDEEN', 'AYR', 'CARLUKE', 'CARRON', 'CUMBERNAULD', 'DUNDEE', 'EAST KILBRIDE', 'EDINBURGH', 'GLASGOW', 'GREENOCK', 'HAMILTON', 'IRVINE', 'LIVINGSTON', 'PITLURG', 'SAINT ANDREWS', 'STIRLING', 'THURSO']
+            cities: ['ABERDEEN, SCT', 'AYR, SCT', 'CARLUKE, SCT', 'CARRON, SCT', 'CUMBERNAULD, SCT', 'DUNDEE, SCT', 'EAST KILBRIDE, SCT', 'EDINBURGH, SCT', 'GLASGOW, SCT', 'GREENOCK, SCT', 'HAMILTON, SCT', 'IRVINE, SCT', 'LIVINGSTON, SCT', 'PITLURG, SCT', 'SAINT ANDREWS, SCT', 'STIRLING, SCT', 'THURSO, SCT']
         },
         'Wales': {
             timezone: 'Europe/London',
-            cities: ['BANGOR', 'BRIDGEND', 'CARDIFF', 'CHEPSTOW', 'MAINDEE', 'MARCHWIEL', 'NEWBRIDGE', 'NEWPORT', 'NEWRY', 'PENTRE', 'SWANSEA']
+            cities: ['BANGOR, WAL', 'BRIDGEND, WAL', 'CARDIFF, WAL', 'CHEPSTOW, WAL', 'MAINDEE, WAL', 'MARCHWIEL, WAL', 'NEWBRIDGE, WAL', 'NEWPORT, WAL', 'NEWRY, WAL', 'PENTRE, WAL', 'SWANSEA, WAL']
         },
         'Northern Ireland': {
             timezone: 'Europe/London',
-            cities: ['BELFAST']
+            cities: ['BELFAST, NIR']
         }
     },
     'Australia': {
         'New South Wales': {
             timezone: 'Australia/Sydney',
-            cities: ['Sydney', 'Newcastle', 'Wollongong', 'Central Coast', 'Maitland']
+            cities: ['Sydney, NSW', 'Newcastle, NSW', 'Wollongong, NSW', 'Central Coast, NSW', 'Maitland, NSW']
         },
         'Victoria': {
             timezone: 'Australia/Melbourne',
-            cities: ['Melbourne', 'Geelong', 'Ballarat', 'Bendigo', 'Frankston']
+            cities: ['Melbourne, VIC', 'Geelong, VIC', 'Ballarat, VIC', 'Bendigo, VIC', 'Frankston, VIC']
         },
         'Queensland': {
             timezone: 'Australia/Brisbane',
-            cities: ['Brisbane', 'Gold Coast', 'Townsville', 'Cairns', 'Toowoomba']
+            cities: ['Brisbane, QLD', 'Gold Coast, QLD', 'Townsville, QLD', 'Cairns, QLD', 'Toowoomba, QLD']
         }
     },
 
@@ -319,6 +319,7 @@ function displayCities(country, state) {
     stateData.cities.forEach(city => {
         const cityRow = document.createElement('tr');
         cityRow.innerHTML = `
+            <td>${state}</td>
             <td>${city}</td>
             <td class="city-time" id="time-${city.replace(/[\s']+/g, '-')}"></td>
         `;
@@ -335,12 +336,10 @@ function startCitiesTimeDisplay(timezone, cities) {
         const now = new Date();
         const timeString = now.toLocaleString('en-US', {
             timeZone: timezone,
-            weekday: 'short',
-            month: 'short',
-            day: 'numeric',
             hour: '2-digit',
             minute: '2-digit',
-            second: '2-digit'
+            second: '2-digit',
+            hour12: true
         });
         
         cities.forEach(city => {
@@ -381,6 +380,7 @@ function displayAllCitiesWithUserTime(country, userTime) {
                 
                 const cityRow = document.createElement('tr');
                 cityRow.innerHTML = `
+                    <td>${state}</td>
                     <td>${city}</td>
                     <td class="city-time" id="time-${city.replace(/[\s']+/g, '-')}"></td>
                 `;
@@ -394,7 +394,7 @@ function displayAllCitiesWithUserTime(country, userTime) {
     } else {
         const noMatchRow = document.createElement('tr');
         noMatchRow.innerHTML = `
-            <td colspan="2" style="text-align: center; color: #666; font-style: italic;">No cities match the selected time currently</td>
+            <td colspan="3" style="text-align: center; color: #666; font-style: italic;">No cities match the selected time currently</td>
         `;
         citiesList.appendChild(noMatchRow);
     }
